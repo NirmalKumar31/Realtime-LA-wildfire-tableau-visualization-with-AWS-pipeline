@@ -1,4 +1,4 @@
-# 🔥 Los Angeles Wildfire(2025) Tableau Visualization Project with AWS Pipeline 
+# Los Angeles Wildfire (2025) Tableau Visualization Project with AWS Pipeline 🔥  
 
 📅 Date: January, 2025  
 👤 Author: Nirmalkumar Thirupallikrishnan Kesavan  
@@ -9,7 +9,7 @@ This project is a 🌎 dynamic and automated Tableau dashboard that visualizes r
 
 ## 🚀 Workflow & Architecture
 ### **1. Web Scraping & Data Storage (AWS S3) 🏗️**
-- Since there is no single dataset available for wildfires, we scrape data from a wildfire monitoring website. 🌐
+- Since there is no single dataset available for wildfires, we scrape data from a wildfire monitoring website[Wildfire Monitoring Website](https://www.fire.ca.gov/) 🌐
 - A Lambda function _(DailyLAfiredata)_ runs the scraping script and stores the extracted data in an AWS S3 bucket _(lafiredata)_ in CSV format. 💾
 
 ### **2. AWS Athena - Transforming Data for Tableau 📊**

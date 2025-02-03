@@ -9,7 +9,7 @@ This project is a 🌎 dynamic and automated Tableau dashboard that visualizes r
 
 ## 🚀 Workflow & Architecture
 ### **1. Web Scraping & Data Storage (AWS S3) 🏗️**
-- Since there is no single dataset available for wildfires, we scrape data from a wildfire monitoring website[Wildfire Monitoring Website](https://www.fire.ca.gov/) 🌐
+- Since there is no single dataset available for wildfires, we scrape data from a [Wildfire Monitoring Website](https://www.fire.ca.gov/) 🌐
 - A Lambda function _(DailyLAfiredata)_ runs the scraping script and stores the extracted data in an AWS S3 bucket _(lafiredata)_ in CSV format. 💾
 
 ### **2. AWS Athena - Transforming Data for Tableau 📊**
@@ -46,6 +46,6 @@ This project is a 🌎 dynamic and automated Tableau dashboard that visualizes r
 ## ⭐ Contribute & Connect
 💡 If you find this useful, star ⭐ this repo!  
 
-🔗 LinkedIn: [https://www.linkedin.com/in/nirmalkumartk/](https://www.linkedin.com/in/nirmalkumartk/)  
-🔗 GitHub: [https://github.com/NirmalKumar31](https://github.com/NirmalKumar31)  
+🔗 LinkedIn: [Nirmalkumar Thirupallikrishnan Kesavan](https://www.linkedin.com/in/nirmalkumartk/)  
+🔗 GitHub: [NirmalKumar31](https://github.com/NirmalKumar31)  
 

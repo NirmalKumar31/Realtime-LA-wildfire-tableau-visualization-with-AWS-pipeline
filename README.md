@@ -7,7 +7,13 @@
 ## 📌 Overview
 This project is a 🌎 dynamic and automated Tableau dashboard that visualizes real-time wildfire incidents in Los Angeles. The visualization updates every three hours using an AWS-based data pipeline, ensuring that insights remain fresh and relevant. 🔥
 
-📹[Project Video Demo](https://github.com/NirmalKumar31/Realtime-LA-wildfire-tableau-visualization-with-AWS-pipeline/blob/f8157c76ee0ac6cb9f765aafd4a20704e2411375/LA_wildfire_tableau_viz_project_demo.mp4)
+## 📹 Project Video Demo  
+
+<video width="800" controls>
+  <source src="https://raw.githubusercontent.com/NirmalKumar31/Realtime-LA-wildfire-tableau-visualization-with-AWS-pipeline/main/LA_wildfire_tableau_viz_project_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Click here to watch](https://github.com/NirmalKumar31/Realtime-LA-wildfire-tableau-visualization-with-AWS-pipeline/blob/main/LA_wildfire_tableau_viz_project_demo.mp4)
+</video>
+
 
 ## 🚀 Workflow & Architecture
 ### **1. Web Scraping & Data Storage (AWS S3) 🏗️**

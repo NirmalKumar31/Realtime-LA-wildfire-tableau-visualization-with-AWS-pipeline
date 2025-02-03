@@ -7,6 +7,8 @@
 ## 📌 Overview
 This project is a 🌎 dynamic and automated Tableau dashboard that visualizes real-time wildfire incidents in Los Angeles. The visualization updates every three hours using an AWS-based data pipeline, ensuring that insights remain fresh and relevant. 🔥
 
+![Project Video Demo](LA_wildfire_tableau_viz_project_demo.mp4)
+
 ## 🚀 Workflow & Architecture
 ### **1. Web Scraping & Data Storage (AWS S3) 🏗️**
 - Since there is no single dataset available for wildfires, we scrape data from a [Wildfire Monitoring Website](https://www.fire.ca.gov/) 🌐
